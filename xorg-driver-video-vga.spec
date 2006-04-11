@@ -1,12 +1,12 @@
 Summary:	X.org video driver for generic VGA video cards
 Summary(pl):	Sterownik obrazu X.org dla kart graficznych zgodnych z VGA
 Name:		xorg-driver-video-vga
-Version:	4.0.0.5
+Version:	4.1.0
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/driver/xf86-video-vga-%{version}.tar.bz2
-# Source0-md5:	6800ea6f26be1b975365a31c8b353bcd
+Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-vga-%{version}.tar.bz2
+# Source0-md5:	b93e5fe9757db779a75cd3ce97b9613d
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -17,7 +17,8 @@ BuildRequires:	xorg-proto-randrproto-devel
 BuildRequires:	xorg-proto-renderproto-devel
 BuildRequires:	xorg-proto-xextproto-devel
 BuildRequires:	xorg-util-util-macros >= 0.99.2
-BuildRequires:	xorg-xserver-server-devel >= 0.99.3
+BuildRequires:	xorg-xserver-server-devel >= 1.0.99.901
+Requires:	xorg-xserver-server >= 1.0.99.901
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
