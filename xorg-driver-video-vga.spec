@@ -1,5 +1,5 @@
 Summary:	X.org video driver for generic VGA video cards
-Summary(pl.UTF-8):   Sterownik obrazu X.org dla kart graficznych zgodnych z VGA
+Summary(pl.UTF-8):	Sterownik obrazu X.org dla kart graficznych zgodnych z VGA
 Name:		xorg-driver-video-vga
 Version:	4.1.0
 Release:	0.1
