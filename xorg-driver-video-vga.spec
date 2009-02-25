@@ -1,8 +1,9 @@
+# deprecated/unmaintained according to xorg people
 Summary:	X.org video driver for generic VGA video cards
 Summary(pl.UTF-8):	Sterownik obrazu X.org dla kart graficznych zgodnych z VGA
 Name:		xorg-driver-video-vga
 Version:	4.1.0
-Release:	4
+Release:	4.1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-video-vga-%{version}.tar.bz2
